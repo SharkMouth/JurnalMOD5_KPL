@@ -45,12 +45,12 @@ class main
         double angka3 = 22;
         Console.WriteLine(penjumlahan.JumlahTigaAngka(angka1, angka2, angka3));
         SimpleDataBase<int> simpleDataBase = new SimpleDataBase<int>();
-        int angka1 = 13;
-        int angka2 = 02;
-        int angka3 = 22;
-        simpleDataBase.AddNewData(angka1);
-        simpleDataBase.AddNewData(angka2);
-        simpleDataBase.AddNewData(angka3);
+        int angka01 = 13;
+        int angka02 = 02;
+        int angka03 = 22;
+        simpleDataBase.AddNewData(angka01);
+        simpleDataBase.AddNewData(angka02);
+        simpleDataBase.AddNewData(angka03);
         simpleDataBase.PrintAllData();
     }
 }
