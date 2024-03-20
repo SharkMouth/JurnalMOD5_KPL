@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 D:\1302223045_MOD5_JURNAL_AFH\jurnal5\jurnal5\obj\Debug\net8.0\jurnal5.GeneratedMSBuildEditorConfig.editorconfig
 D:\1302223045_MOD5_JURNAL_AFH\jurnal5\jurnal5\obj\Debug\net8.0\jurnal5.AssemblyInfoInputs.cache
 D:\1302223045_MOD5_JURNAL_AFH\jurnal5\jurnal5\obj\Debug\net8.0\jurnal5.AssemblyInfo.cs
 D:\1302223045_MOD5_JURNAL_AFH\jurnal5\jurnal5\obj\Debug\net8.0\jurnal5.csproj.CoreCompileInputs.cache
 D:\1302223045_MOD5_JURNAL_AFH\jurnal5\jurnal5\obj\Debug\net8.0\jurnal5.sourcelink.json
+=======
+>>>>>>> implementasi-generic-class
 D:\1302223045_MOD5_JURNAL_AFH\jurnal5\jurnal5\bin\Debug\net8.0\jurnal5.exe
 D:\1302223045_MOD5_JURNAL_AFH\jurnal5\jurnal5\bin\Debug\net8.0\jurnal5.deps.json
 D:\1302223045_MOD5_JURNAL_AFH\jurnal5\jurnal5\bin\Debug\net8.0\jurnal5.runtimeconfig.json

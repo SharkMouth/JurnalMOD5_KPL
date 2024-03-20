@@ -1,5 +1,31 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using System.Numerics;
+public class SimpleDataBase<T>
+{
+    private List<T> storedData;
+    private List<DateTime> inputDates;
+
+    public SimpleDataBase()
+    {
+        storedData = new List<T>();
+        inputDates = new List<DateTime>();
+    }
+
+    public void AddNewData(T data)
+    {
+        storedData.Add(data);
+        inputDates.Add(DateTime.Now);
+    }
+
+    public void PrintAllData()
+    {
+        for (int i = 0; i < storedData.Count; i++) {
+            Console.WriteLine($"Data {i+1} berisi : {storedData[i]} yang disimpan pada waktu {inputDates[i]}");
+        }
+    }   
+}
+
+
 
 public class Penjumlahan<T>
 {
@@ -18,5 +44,13 @@ class main
         double angka2 = 02;
         double angka3 = 22;
         Console.WriteLine(penjumlahan.JumlahTigaAngka(angka1, angka2, angka3));
+        SimpleDataBase<int> simpleDataBase = new SimpleDataBase<int>();
+        int angka1 = 13;
+        int angka2 = 02;
+        int angka3 = 22;
+        simpleDataBase.AddNewData(angka1);
+        simpleDataBase.AddNewData(angka2);
+        simpleDataBase.AddNewData(angka3);
+        simpleDataBase.PrintAllData();
     }
 }
